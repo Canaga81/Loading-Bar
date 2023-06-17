@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 40rem;
+    text-align: center;
+    position: relative;
+}
+
+.container h1 {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.container .counter {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.loading-bar-back {
+    position: absolute;
+    height: 0.8rem;
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.loading-bar-front {
+    position: absolute;
+    height: 0.8rem;
+    background-color: red;
+    width: 0%;
+    border: none;
+    border-radius: 0.5rem;
+}
